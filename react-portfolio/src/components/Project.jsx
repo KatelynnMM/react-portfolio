@@ -1,14 +1,22 @@
 import React from 'react';
 
-const Project = ({ title, image, deployedLink, githubLink }) => {
+const Projects = () => {
     return (
-        <div>
-            <h3>{title}</h3>
-            <img src={image} alt={title} />
-            <a href={deployedLink}>Deployed Application</a>
-            <a href={githubLink}>GitHub Repository</a>
+        <div id="projects">
+            <h2 className="text-center">Projects</h2>
+            <div className="projects">
+                <a href="https://katelynnmm.github.io/code-refactor/">
+                    <img src="src/assets/Screenshot 2023-12-03 102701.png" alt="image of Horiseon's web page." />
+                </a>
+                <a href="#comimg-soon">
+                    <img src="src/assets/coming-soon-1898936_640.jpg" alt="image says coming soon." />
+                </a>
+                <a href="#comimg-soon">
+                    <img src="src/assets/coming-soon-1898936_640.jpg" alt="image says coming soon." />
+                </a>
+            </div>
         </div>
     );
 };
 
-export default Project;
+export default Projects;

@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header>
-            <nav>
-                <Link to="/">About Me</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/resume">Resume</Link>
+            <nav className="topnav">
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="https://github.com/">Github</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
     );
