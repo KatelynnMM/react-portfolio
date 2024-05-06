@@ -2,7 +2,8 @@
 /* Keep only the specific rules that Bootstrap does not provide */
 
 /* Import Bootstrap CSS */
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 /* Add custom styles here */
 
